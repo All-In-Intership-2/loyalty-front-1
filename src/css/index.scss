@@ -1,0 +1,15 @@
+@import 'fonts.scss';
+@import 'nullstyle.scss';
+
+// Noto Armenian Regular - hayereni hamar  ` font-family: 'Noto Armenian Regular';
+// Noto Sans - ` font-family: 'Open Sans', sans-serif;
+
+// color variables
+$dark-color: #1E1E1E;
+$light-color: #686868;
+$unique-color: #179879;
+
+body {
+  font-family: 'Noto Armenian Regular';
+  font-size: 16px;
+}
