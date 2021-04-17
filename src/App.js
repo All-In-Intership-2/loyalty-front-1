@@ -1,10 +1,15 @@
+import { BrowserRouter, Route } from "react-router-dom"
+import Home from "./components/Home"
+import LoginPage from "./components/LoginPage"
+
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <h1>Loyalty App</h1>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <Route path='/' exact component={Home} />
+        <Route path='/authentication' component={LoginPage} />
+      </div>
+    </BrowserRouter>
   )
 }
 
